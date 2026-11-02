@@ -1,0 +1,43 @@
+front,back
+Port 20/21,FTP (TCP)
+Port 22,SSH / SFTP (TCP)
+Port 23,Telnet (TCP)
+Port 25,SMTP (TCP)
+Port 53,DNS (TCP/UDP)
+Port 67/68,DHCP (UDP)
+Port 80,HTTP (TCP)
+Port 110,POP3 (TCP)
+Port 137-139,NetBIOS/NetBT
+Port 143,IMAP (TCP)
+Port 161/162,SNMP (UDP)
+Port 389,LDAP
+Port 443,HTTPS (TCP)
+Port 445,SMB/CIFS (TCP)
+Port 3389,RDP (TCP)
+APIPA address range,169.254.0.0/16 — means DHCP failed
+IPv6 link-local prefix,fe80::/10
+IPv4 private ranges,"10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16"
+2.4 GHz non-overlapping channels,"1, 6, 11"
+Wi-Fi 6 standard,802.11ax
+Wi-Fi 5 standard,802.11ac (5 GHz only)
+RAID 0,Striping — no fault tolerance — min 2 drives
+RAID 1,Mirroring — min 2 drives — 50% capacity
+RAID 5,Striping with parity — min 3 drives — survives 1 failure
+RAID 10,Stripe of mirrors — min 4 drives
+Laser printer steps,"Processing, Charging, Exposing, Developing, Transferring, Fusing, Cleaning"
+Toner smears off the page,Fuser problem
+Date/time keeps resetting,CMOS battery (CR2032)
+Type 1 hypervisor,"Bare metal — ESXi, Hyper-V, Proxmox"
+Type 2 hypervisor,"Runs on host OS — VirtualBox, VMware Workstation"
+IaaS / PaaS / SaaS,"Infrastructure (you manage OS) / Platform (you manage apps) / Software (just use it)"
+Cat 6 max for 10 Gbps,55 meters
+Cat 6a 10 Gbps distance,100 meters
+Single-mode vs multimode fiber,Single-mode = long distance laser; multimode = shorter LED
+PoE+ standard and wattage,802.3at — 30 W
+Clicking noise from PC,Failing hard drive — back up immediately
+Can ping IP but not hostname,DNS problem
+Swollen phone battery,Stop using; replace; dispose properly
+TPM,Hardware chip storing encryption keys (BitLocker; Win 11 needs TPM 2.0)
+Troubleshooting step 1,Identify the problem
+Troubleshooting step 3,Test the theory to determine cause
+Troubleshooting final step,"Document findings, actions, and outcomes"

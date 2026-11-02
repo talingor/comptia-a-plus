@@ -1,0 +1,46 @@
+front,back
+Malware removal step 1,Investigate and verify malware symptoms
+Malware removal step 2,Quarantine infected systems
+Malware removal step 3,Disable System Restore
+Malware removal step 4,Remediate — update anti-malware; scan and remove
+Malware removal step 5,Schedule scans and run updates
+Malware removal step 6,Enable System Restore and create a restore point
+Malware removal step 7,Educate the end user
+Which Windows edition lacks BitLocker and domain join,Home
+Windows 11 security requirements,TPM 2.0 + UEFI Secure Boot
+MBR vs GPT,"MBR: 4 primary partitions, 2 TB; GPT: UEFI, 128 partitions, huge disks"
+FAT32 file size limit,4 GB
+Best file system for large-file USB drive cross-platform,exFAT
+macOS backup tool,Time Machine
+macOS full-disk encryption,FileVault
+macOS password storage,Keychain
+Linux: change permissions,chmod
+Linux: change owner,chown
+sfc /scannow,Scans and repairs protected Windows system files
+gpupdate /force,Reapply Group Policy immediately
+chkdsk /r,Locate bad sectors and recover readable info
+robocopy,Robust file copy (resumable; can mirror directories)
+diskmgmt.msc,Disk Management
+eventvwr.msc,Event Viewer
+msconfig,System Configuration (boot options; services)
+regedit,Registry Editor
+Phishing via SMS,Smishing
+Phishing via voice call,Vishing
+Phishing targeting executives,Whaling
+Following someone through a secure door,Tailgating (piggybacking if they let you)
+Best Wi-Fi security,WPA3 (SAE)
+NTFS + share permissions combined,Most restrictive applies
+Moving a file within same NTFS volume,Keeps original permissions
+Degaussing works on,Magnetic media (HDDs/tapes) — not SSDs
+Proof of third-party data destruction,Certificate of destruction
+Incremental backup restore needs,Full + every incremental since
+Differential backup restore needs,Full + latest differential
+3-2-1 backup rule,"3 copies, 2 media types, 1 offsite"
+Fire extinguisher for electrical fires,Class C (or CO2)
+Document for chemical handling/disposal,SDS / MSDS
+Change management approval body,Change Advisory Board (CAB)
+.ps1 file,PowerShell script
+.sh file,Shell (Bash) script
+.bat file,Windows batch script
+Credit card data regulation,PCI DSS
+Health data regulation (US),HIPAA / PHI
